@@ -1,0 +1,70 @@
+
+//tamaño de logo
+.logo{
+  width: 35%;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+footer{
+  background-color: black;
+}
+
+.footer-img{
+  width: 5%;
+}
+
+.hero{
+  background-image: url("/assets/img/post-image.jpg");
+  background-repeat: no-repeat, repeat;
+  height: 700px;
+  background-size: cover;
+}
+
+.margen{
+    margin-top: 12em;
+}
+.titulo{
+  color:#ffffff;
+  height: 200px;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+
+.navegacion{
+background-color: gray;
+}
+
+.naomi{
+  width: 50%;
+}
+
+.img-titulo{
+  z-index: -1;
+}
+.text-titulo{
+  z-index: 1;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
